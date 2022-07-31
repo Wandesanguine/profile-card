@@ -36,6 +36,10 @@ body{
     background: var(--Dark-cyan);
     font-size: 18px;
     font-family: "kumbh sans", "sans-serif";
+    background-image: url(../images/bg-pattern-top.svg),
+     url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 30vw bottom 30vh, left 50vw top 30vh;
 }
 h3, h4{
     color: var(--Very-dark-desaturated-blue);
